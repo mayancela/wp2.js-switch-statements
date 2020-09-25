@@ -31,6 +31,10 @@ window.onload = function() { //using event hooking
                     document.getElementById('dessert').innerHTML = "<img src='images/pie.jpg'>";
                     break;
 
+                case 'cake':
+                    console.log('Such a beautiful, sophisticated looking cake');
+                    document.getElementById('dessert').innerHTML = "<img src='images/lemon-cake.jpg'>";
+
             }
     };
 }
