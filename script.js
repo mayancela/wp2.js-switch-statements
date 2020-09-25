@@ -26,6 +26,11 @@ window.onload = function() { //using event hooking
                     document.getElementById('dessert').innerHTML = "<img src='images/salted-caramel-popcorn.jpg'>";
                     break;
 
+                case 'pie':
+                    console.log('A slice right out of the oven, yum!');
+                    document.getElementById('dessert').innerHTML = "<img src='images/pie.jpg'>";
+                    break;
+
             }
     };
 }
