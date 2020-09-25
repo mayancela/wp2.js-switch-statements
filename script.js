@@ -16,6 +16,11 @@ window.onload = function() { //using event hooking
                     document.getElementById('dessert').innerHTML = "<img src='images/cookies.jpg'>";
                     break;
 
+                case 'donuts':
+                    console.log('Right out of the oven');
+                    document.getElementById('dessert').innerHTML = "<img src='images/donuts.jpg'>";
+                    break;
+
 			}
     };
 }
