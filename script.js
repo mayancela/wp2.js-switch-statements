@@ -21,6 +21,11 @@ window.onload = function() { //using event hooking
                     document.getElementById('dessert').innerHTML = "<img src='images/donuts.jpg'>";
                     break;
 
-			}
+                case 'popcorn':
+                    console.log('Nothing beats salted caramel popcorn!');
+                    document.getElementById('dessert').innerHTML = "<img src='images/salted-caramel-popcorn.jpg'>";
+                    break;
+
+            }
     };
 }
