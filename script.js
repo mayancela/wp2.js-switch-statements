@@ -1,7 +1,7 @@
-window.onload = function() { //using event hooking
+window.onload = function() { // using event hooking
     caseSwitching();
     function caseSwitching(){
-        let desserts = 'ice-cream';
+        let desserts = 'cake';
             switch(desserts){
                 case 'french-toast':
                     console.log('French toast in delicious');

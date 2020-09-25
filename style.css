@@ -4,3 +4,7 @@ body {
   background-color: #eee;
   font-family: 'Montserrat', sans-serif;
 }
+
+img {
+    width: 30%;
+}
